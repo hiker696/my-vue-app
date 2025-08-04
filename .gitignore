@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# 忽略依赖文件夹
+node_modules/
+
+# 忽略打包产物
+dist/
+
+# 忽略环境变量配置
+.env
+
+# 忽略 macOS 或 VSCode 生成的临时文件（可选）
+.DS_Store
+.vscode/
